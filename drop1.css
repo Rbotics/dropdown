@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right bottom, orange,white,lightgreen
+    );
+    height: 100vh;
+
+
+}
+
+nav{
+    background-color: whitesmoke;
+}
+
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+
+}
+
+a:hover{
+    background-color: rgb(175, 192, 214);
+}
+
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightpink;
+     position: absolute;
+     display: none;
+}
+
+#drop:hover #menu{
+    display: block;
+    /* ---------block bcoz menu is block level element we can provide any display properties------ */
+    /* ------------------------#drop:hover #menu.....why?--hover on drop and do changes on menu ------------ */
+
+}

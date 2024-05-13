@@ -1,0 +1,65 @@
+/* #img1{
+    position: static;
+    top: 0px;
+    left: 0px;
+}
+
+#img2{
+    position: static;
+    top: 0px;
+    left: 0px;
+} */
+
+/* #img1{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#img2{
+    position: relative;
+    top: 0px;
+    left: 0px;
+} */
+
+/* #img2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#img1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
+
+#img1{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#img2{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+/* #img1{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#img2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+} */
+/* ------------position is used when we want to overlap the content --------------by default its static we cannot overlap with it */
+/* -----------position relative will move with respect to its center point and occupy original space its acces center point is content -----------  */
+/* --------------position absoloute acces center point is body but its dest not occupy original space-----------  */
+/* ------------------position sticky is very similar to relative its position is till the its parent tag its acces center point is content--------- */
+/* -----------------position fixed is very similar to absolute its parent is body its dest not occupy original space  it takes fixed space---------- */
+
